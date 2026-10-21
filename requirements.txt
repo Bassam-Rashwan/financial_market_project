@@ -1,0 +1,27 @@
+
+# Web scraping
+requests
+beautifulsoup4
+aiohttp
+selenium
+yfinance
+
+# Data processing
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn
+
+# PostgreSQL
+SQLAlchemy
+psycopg2-binary
+
+# Configuration
+python-dotenv
+
+# Visualization
+plotly
+
+# Web application
+reflex
