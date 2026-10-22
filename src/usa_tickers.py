@@ -45,7 +45,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #### Start scraping data from the stock screener pages and go through the number of pages specified TOTAL_PAGES
-url = "https://stockanalysis.com/stocks/screener/"
+url = os.getenv("STOCK_SCREEN_URL")
 TOTAL_PAGES = 281
 
 # Configure the web driver and wait object
