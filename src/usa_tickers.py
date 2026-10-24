@@ -15,7 +15,7 @@ logging.basicConfig(
     filemode="w" #overwrite the file
                     )
 def log_unhandled_exception(exc_type, exc_value, exc_traceback):
-    # Keep Ctrl+C behavior unchanged
+    
     if issubclass(exc_type, KeyboardInterrupt):
         sys.__excepthook__(exc_type, exc_value, exc_traceback)
         return
